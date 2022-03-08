@@ -11,8 +11,8 @@ const getProfile = async (req, res) => {
         const {username} = req.query
 
         const userProfileQuery = await client
-            .query(`SELECT username, created_at, description, api_key from users INNER JOIN profiles on users.profile_id = profiles.id WHERE users.username = $1`,
-                [username])
+            .query(`SELECT username, created_at, description, api_key from users INNER JOIN profiles on users.profile_id = profiles.id WHERE users.username = $1 AND users.id = $2`,
+                [username, req.user.id])
 
         if (!userProfileQuery.rowCount) {
             return res.status(404).json({message: 'Profile not found'})
