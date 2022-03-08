@@ -1,0 +1,19 @@
+.idea
+.DS_Store
+
+node_modules
+package-lock.json
+*.log
+*.gz
+
+.env*
+!.env.example
+
+tmp
+
+# Coveralls
+.nyc_output
+coverage
+
+# Benchmarking
+benchmarks/graphs
