@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9790c202_6f88fe72",
+        "filename": "first.txt",
+        "patchSetId": 3
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1020311
+      },
+      "writtenOn": "2022-06-24T14:38:40Z",
+      "side": 1,
+      "message": "Better to use // when adding comments",
+      "range": {
+        "startLine": 1,
+        "startChar": 0,
+        "endLine": 1,
+        "endChar": 39
+      },
+      "revId": "2acca170a242d0519d49c7a72582b4b2dc527749",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    }
+  ]
+}
