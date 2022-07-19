@@ -1,6 +1,15 @@
 # Break Access Control
 This repository is probably the simplest example of Break Access Control vulnerability. BAC moved to the top of OWASP list in 2021 and thus represents a huge interest for many security researchers.
 
+This is test message here in readme.
+123123123
+1231231233123
+1231231233123sadsampda
+samdasdoas
+dasmdoiasdnoias
+asnidoas
+
+
 ### Run demo
 First, checkout to commit 53cc88a1b5826c1ba2b5ca8f59b4656928496cb8 and start the app by executing ```docker-compose up -d --build```.
 Next, run following curl requests to ensure that BAC indeed takes place:
