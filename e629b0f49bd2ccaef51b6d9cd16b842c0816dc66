@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0dede24b_aa1886a3",
+        "filename": "test.second",
+        "patchSetId": 1
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 1020311
+      },
+      "writtenOn": "2022-11-20T13:25:05Z",
+      "side": 1,
+      "message": "nsdiofs",
+      "revId": "e629b0f49bd2ccaef51b6d9cd16b842c0816dc66",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    }
+  ]
+}
